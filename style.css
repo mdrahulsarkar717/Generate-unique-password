@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #39CE5C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allpass{
+    position: absolute;
+    top: 4px;
+    right: 7px;
+    width: 130px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #2551CC;
+    color: white;
+    font-size: 0.7em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.allpass:hover{
+    background:#B2D32C;
+}
+.container{
+    width: 380px;
+    height: 400px;
+    background: /*#7B7B7B;*/
+    border-radius: 5px;
+    overflow: /*hidden;*/
+}
+.container h2{
+    text-align: center;
+    color: white;
+   /* text-shadow: 0 0 3px #000;*/
+    background: rgba(118, 60, 164, 1);
+    font-size: 2em;
+}
+.container h3{
+    text-align: center;
+    color: #C4EC55;
+    margin-top: 10px;
+    
+}
+.container #pass{
+    width: 80%;
+    height: 40px;
+    border: 1px solid rgba(151, 78, 210, 1);
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background: transparent;
+    margin-left: 2px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2px 20px;
+    font-size: 1.2em;
+}
+.container .copypass{
+    width: 70px;
+    height: 40px;
+    background: #D53A3A;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: -20px;
+    margin-top: -2px;
+    padding: 5px 5px 3px 5px;
+}
+.container .copypass:hover{
+    background: #D53AB7;
+}
+.container .generate{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 23%;
+    background: #D53A3A;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.container .savepass{
+    width: 200px;
+    height: 40px;
+    background: #68C543;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 23%;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container .savedrejult{
+    position: absolute;
+    font-size: 2em;
+    color: white;
+    z-index: 99;
+    background: #5EAE3A;
+    text-align: center;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-top: 180px;
+    padding: 5px;
+}
+.rej{
+    display: none;
+}
+button{
+    transition: all 0.1s;
+}
+button:hover{
+    transform: scale(0.9);
+}
